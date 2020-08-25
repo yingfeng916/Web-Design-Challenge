@@ -1,13 +1,14 @@
 
 .container_summary {
     background-color: white;
-    position: absolute;
-    left: 10%; 
-    top: 15%; 
     padding: 30px;
     color: #09a29d;
-    width: 750px;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 9%;
+    width: 700px;
     height: 500px;
+
   
     
 }
@@ -21,11 +22,12 @@ p {
 
 .container_visualization {
     background-color: white;
-    position: absolute; 
-    right: 11%; 
-    top: 15%;
+    position: absolute;
+    top: 15.2%;
+    right: 14%;
     padding: 30px;
     color: #09a29d;
+    margin: auto;
     width: 350px;
     height: 450px;
     
@@ -33,13 +35,13 @@ p {
 
 .container_comparison {
     background-color: white; 
-    position: absolute; 
-    left: 20%; 
-    top: 100px; 
+    top: 30%; 
     padding: 30px;
     color: #09a29d;
+    margin: auto;
     width: 850px;
     height: 80%;
+    margin-top:2%;
 }
 
 .container_comparison p {
@@ -85,9 +87,10 @@ p {
 @media (max-width: 650px) {
     .container_summary  {
         left: 0%; 
-        top: 8%;
+        top: 8%; 
+        padding: 30px;
         width: 100%;
-        height: 60%;
+        margin: auto;
        
     }
 
@@ -100,12 +103,14 @@ p {
         top: 65%; 
         width: 100%;
         height: 40%;
+        bg-light;
     }
 
     .dropdown-menu {
-        visibility: hidden;
-        
+        border: 0;
+        background: #F9F8F8;
     }
+
 
     p {
         left: 0%;
@@ -121,7 +126,6 @@ p {
 
     .container_comparison {
         background-color: white; 
-        position: absolute; 
         left: 0%; 
         top: 8%; 
         padding: 30px;
