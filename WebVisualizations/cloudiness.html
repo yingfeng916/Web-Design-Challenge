@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cloudiness</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="web.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color: lightgrey">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Top left navbar-->
+            <a class="navbar-brand" href="landing.html" style="color: white; background: #09a29d; padding: 0.7%">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Top right navbar-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav-item navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div class="container_summary">
+            <h2 class="body_text">
+                Cloudiness
+              </h2>
+            <hr>
+            <center>
+            <img src="resources/assets/images/Fig3.png" width="500" height="300">
+            </center>
+            <p>This graph compares the relationship between latitudes from -60 to 80 with cloudiness.
+                As shown, there is no significant linear correlation between latitude and cloudiness. 
+                
+        
+            </p> 
+            
+
+        </div>
+          <div class="container_visualization visualization_bottom">
+            <h3 class="body_text_2">
+              Visualization
+            </h3>
+          <hr>
+          <div class="row visualization_row">
+            <div class="col-4 col-md-6">
+              <a href="max_temp.html">
+                <img src="resources/assets/images/Fig1.png" width="150" height="150">
+              </a>
+            </div>
+            <div class="col-4 col-md-6">
+              <a href="humidity.html">
+                <img src="resources/assets/images/Fig2.png" width="150" height="150">
+              </a>
+            </div>
+            <div class="col-4 col-md-6">
+              <a href="cloudiness.html">
+                <img src="resources/assets/images/Fig3.png" style="border: 1px solid #09a29d" width="150" height="150">
+              </a>
+            </div>
+            <div class="col-4 col-md-6">
+              <a href="wind_speed.html">
+                <img class="last_image" src="resources/assets/images/Fig4.png" width="150" height="150">
+              </a>
+
+              </div>
+            </div>
+        </div>
+    </body> 
+</html>
